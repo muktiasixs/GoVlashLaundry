@@ -18,7 +18,7 @@ Gerbang masuk untuk semua pengguna (Customer, Admin, Resepsionis, dan Staf).
 Pusat kontrol yang dinamis menyesuaikan dengan Role pengguna (Contoh: Dashboard Admin).
 
 ![Dashboard Utama admin](./screenshots/admin.png)
-![Dashboard Utama customer](./screenshots/user.png)
+![Dashboard Utama customer](./screenshots/customer.png)
 
 ---
 
