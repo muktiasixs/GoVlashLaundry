@@ -12,13 +12,13 @@ Berikut adalah tampilan antarmuka aplikasi GoVlash Laundry:
 Gerbang masuk untuk semua pengguna (Customer, Admin, Resepsionis, dan Staf).
 
 ![Halaman Login](./screenshots/login.png)
-*(Ganti path gambar di atas dengan lokasi gambar login Anda)*
+![account yang sudah ada](./screenshots/account.png)
 
 ### 2. Dashboard Utama
 Pusat kontrol yang dinamis menyesuaikan dengan Role pengguna (Contoh: Dashboard Admin).
 
-![Dashboard Utama](./screenshots/admin.png)
-*(Ganti path gambar di atas dengan lokasi gambar dashboard Anda)*
+![Dashboard Utama admin](./screenshots/admin.png)
+![Dashboard Utama customer](./screenshots/user.png)
 
 ---
 
