@@ -1,10 +1,10 @@
-# GoVlash Laundry Management System 🧺
+# GoVlash Laundry Management System 
 
 **GoVlash Laundry** adalah aplikasi desktop berbasis Java yang dirancang untuk memodernisasi operasional bisnis laundry. Aplikasi ini dibangun menggunakan arsitektur **MVC (Model-View-Controller)** dan **Java Swing/AWT** (Native GUI) untuk antarmuka penggunanya, dengan **MySQL** sebagai basis data.
 
 Proyek ini dibuat untuk memenuhi tugas mata kuliah *Object Oriented Analysis & Design*, dengan fokus pada pengalaman pengguna (UX) dan validasi data yang ketat tanpa menggunakan library eksternal (No Regex, No FXML).
 
-## 📸 Antarmuka Aplikasi (Screenshots)
+##  Antarmuka Aplikasi (Screenshots)
 
 Berikut adalah tampilan antarmuka aplikasi GoVlash Laundry:
 
@@ -22,33 +22,33 @@ Pusat kontrol yang dinamis menyesuaikan dengan Role pengguna (Contoh: Dashboard 
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 Aplikasi ini menggunakan sistem kontrol akses berbasis peran (*Role-Based Access Control*):
 
-### 👥 Customer (Pelanggan)
+###  Customer (Pelanggan)
 * **Registrasi Tamu:** Pengguna baru dapat mendaftar sendiri.
 * **Buat Pesanan:** Memilih layanan laundry dan membuat transaksi baru.
 * **Riwayat Transaksi:** Melihat status pesanan terkini dan masa lalu.
 * **Notifikasi:** Menerima pesan saat cucian telah selesai ("Finished").
 
-### 🛠 Admin (Administrator)
+###  Admin (Administrator)
 * **Manajemen Layanan (CRUD):** Menambah, mengedit, dan menghapus layanan laundry.
 * **Manajemen Karyawan:** Mendaftarkan akun untuk Resepsionis dan Staf Laundry.
 * **Kirim Notifikasi:** Mengirim notifikasi manual ke pelanggan saat pesanan selesai.
 * **Monitoring:** Melihat seluruh transaksi yang berjalan.
 
-### 🧑‍💼 Receptionist (Resepsionis)
+###  Receptionist (Resepsionis)
 * **Lihat Pesanan Masuk:** Memantau pesanan baru (Status: Pending).
 * **Assign Task:** Menugaskan pesanan kepada Staf Laundry tertentu (Status berubah ke: In Progress).
 
-### 👕 Laundry Staff (Staf Cuci)
+###  Laundry Staff (Staf Cuci)
 * **Lihat Tugas:** Hanya melihat pesanan yang ditugaskan kepadanya.
 * **Selesaikan Tugas:** Menandai pesanan sebagai 'Finished'.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 * **Bahasa:** Java (JDK 8+)
 * **GUI:** Java Swing & AWT (Native Code, tanpa Drag-and-Drop/SceneBuilder)
@@ -59,7 +59,7 @@ Aplikasi ini menggunakan sistem kontrol akses berbasis peran (*Role-Based Access
 
 ---
 
-## ⚙️ Cara Instalasi dan Menjalankan
+##  Cara Instalasi dan Menjalankan
 
 ### Prasyarat
 1.  **Java Development Kit (JDK)** terinstal.
@@ -67,7 +67,7 @@ Aplikasi ini menggunakan sistem kontrol akses berbasis peran (*Role-Based Access
 3.  **Eclipse IDE** (atau IDE Java lainnya).
 4.  Library **MySQL JDBC Driver** ditambahkan ke Build Path.
 
-### Langkah 1: Setup Database 🗄️
+### Langkah 1: Setup Database 
 
 Jalankan script SQL berikut di phpMyAdmin atau MySQL Workbench untuk membuat database `govlash_laundry`:
 
